@@ -1,0 +1,50 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    list-style-type: none;
+    top: 0;
+    position: fixed;
+    width: 98%
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline;
+    color: black;
+    margin: 7px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: rgb(80, 80, 80);
+    text-decoration: underline;
+}
+
+#googlelogo {
+    display: block;
+    margin: 20% auto auto auto;
+}
+
+#search {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    height: 45px;
+    width: 40%;
+    box-sizing: border-box;
+    border: 0.5px solid lightgrey;
+    border-radius: 20px;
+}
+
+#search:hover,
+#search:focus {
+    box-shadow: 2px 2px rgb(238, 238, 238)
+}
