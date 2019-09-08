@@ -2,11 +2,14 @@ html {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    min-height: 100vh;
 }
 
 nav {
     list-style-type: none;
-    top: 0;
+    top: 10px;
     position: fixed;
     width: 98%
 }
@@ -36,10 +39,9 @@ li a:hover {
 #search {
     display: block;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 20px;
     height: 45px;
-    width: 40%;
-    box-sizing: border-box;
+    width: 500px;
     border: 0.5px solid lightgrey;
     border-radius: 20px;
 }
@@ -47,4 +49,66 @@ li a:hover {
 #search:hover,
 #search:focus {
     box-shadow: 2px 2px rgb(238, 238, 238)
+}
+
+#signin {
+    background-color: rgb(55, 125, 230);
+    padding: 5px 13px;
+    border-radius: 2px;
+    color: white;
+}
+
+#signin:hover {
+    text-decoration: none;
+}
+
+.button {
+    height: 35px;
+    width: 135px;
+    margin: 30px 10px;
+    font-family: "Open Sans", sans-serif;
+    border-style: none;
+    background-color: rgb(241, 241, 241);
+    border-radius: 3px;
+    color: rgb(111, 111, 111);
+}
+
+footer {
+    text-align: left;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+}
+
+.country {
+    margin-left: 15px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+    left: 0;
+}
+
+footer .left {
+    float: left;
+    list-style: none;
+    margin-left: -25px;
+}
+
+footer .left li {
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+footer .right {
+    float: right;
+    list-style: none;
+    margin-right: 15px;
+}
+
+footer .right li {
+    margin-left: 20px;
+    font-size: 14px;
 }
